@@ -1,0 +1,118 @@
+body {
+    background-color: #EFE6DD;
+    padding:0;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color:#54626A;
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    margin: 0 60px;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+    background-color:#6B4226;
+    display: flex;
+    width: 143px;
+    height: 27px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius:7px;
+}
+
+h1 {
+    text-align: center;
+    color:#707070;
+}
+
+p {
+    text-align: center;
+    color:#707070;
+}
+
+.description {
+    background-color: #C2B1B1;
+    width:677px;
+    height:250px;
+    margin: 40px auto;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.description p {
+    text-align: justify;
+    color:#111111;
+    font-size: 16px;
+    padding: 18px;
+}
+
+.panel {
+    width:859px;
+    height:354px;
+    background-color: #B4CDBA;
+    border-radius: 7px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel article {
+    background-color: azure;
+    border-radius: 15px;
+    height: 213px;
+    width: 208px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 30px;
+}
+
+.panel article p {
+    font-size: 10px;
+}
+
+.order {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.order a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 31px;
+    border-radius: 7px;
+    background-color: #54626A;
+    color:white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #54626A;
+    text-align: center ;
+    height: 71px;
+}
+
+footer p {
+    color:white;
+}
